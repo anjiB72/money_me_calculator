@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="./reset.css">
 	<link rel="stylesheet" type="text/css" href="./style.css">
-	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 </head>
 
 <body>
@@ -15,17 +16,17 @@
             <h1>Home Insure Me</h1>
         </nav>
     </header>
-    <div>
+    <div class="main-image">
         <img src="./images/StockSnap_WDVIQZEXML.jpg" alt="Picture of home and sofa">
     </div>
     <div class="userEntry">
-       <div>
+       <div id="user-entry">
         <label for="userName">Enter Name</label> <input id="userName"type="text">
         <h3>Your contents are currently insured for £75,000</h3>
-        <button>Go to Calculator</button>
+        <button id="goToCalc">Go to Calculator</button>
        </div>
     </div>
-    <div class="calculator">
+    <div class="calculator displayNone">
         <div class="radioButtons">
             <input type="radio" name="room" value="lounge"> Lounge<br>
             <input type="radio" name="room" value="diningroom">Dining Room<br>
@@ -34,12 +35,12 @@
             <input type="radio" name="room" value="masterbedroom">Master Bedroom<br>
             <input type="radio" name="room" value="bedroom2">Spare Bedroom<br>
         </div>
-        <div class="roomContents">
+        <div class="roomContents ">
           
         </div>
         <button>Take Photo of Item</button>
     </div>
-    <div class="newItem">
+    <div class="newItem displayNone">
         
     </div>
     <footer>
