@@ -22,7 +22,8 @@ nav h1 {
     padding: 10px;
 }
 
-footer {
+footer, 
+.itemDetails{
     background-color: #0e5940;
     color: white;
     display: flex;
@@ -40,20 +41,25 @@ footer {
 }
 
 .userEntry,
-.calculator{
+.calculator,
+.newItem{
     width: 100%;
     background-color: #0e5940;
     color: white;
     padding: 30px 0;
-    height: 200px;
+    height: auto;
     text-align: center;
 }
+
+
 label{
     text-align: center;
     width: 20px;
     height: 15px;
     font-size: 14px;
 }
+
+
 #user-entry{
    text-align: center;
 }
@@ -62,6 +68,48 @@ label{
     font-size: 15px;
 }
 
+#itemDetails{
+    background-color: white;
+    padding: 5px;
+    align-content: center;
+}
+
+.newItem h3{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.newItem h2{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#itemImage{
+    margin: 10px;
+    width: 25%;
+    height: auto; 
+}
+
+#itemImage img{
+    width: 100%;
+    height: auto;
+}
+
+#itemInfo{
+    width: 60%;
+    height: auto;
+    text-align: left;
+}
+
+#itemInfo label,
+#itemInfo input{
+    height: 10px;
+    padding: 10px;
+    width: 200px;
+}
 footer div{
     align-content: space-around;
     padding: 2px;
@@ -77,4 +125,31 @@ button{
     height: 45px;
     width: 150px;
     margin: 5px;
+}
+.contents{
+    height: 150px;
+    width: 100%;
+    padding: 20px;
+}
+table{
+    width: 60%;
+    margin-left: 15px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+tr{
+    height: 15px;
+}
+thead{
+    background-color: bisque;
+    color: black;
+}
+
+tbody{
+    background-color: aqua;
+    color: black;
+}
+th{
+    width: 30%;
 }
